@@ -1,5 +1,5 @@
 body {
-    background-image: url('imagens/wallpaper001.jpg');
+    background-image: url('../imagens/wallpaper001.jpg');
 }    
 
 div.quadrado {
@@ -20,5 +20,5 @@ div.quadrado {
 }
 
 #q3 {
-    background-image: url('imagens/pattern003.png');
+    background-image: url('../imagens/pattern003.png');
 }
