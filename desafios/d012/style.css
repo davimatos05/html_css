@@ -48,6 +48,8 @@ header > p#direitos {
     left: 50%;
     top: 80%;
     transform: translate(-50%,-50%);
+
+    margin: auto;
 }
 
 p#direitos > a {
@@ -60,7 +62,7 @@ p#direitos > a {
 }
 
 div.imagem {
-    width: 524px;
+    max-width: 524px;
     background-color: rgba(0, 0, 0, 0.233);
     font-family: sriracha;
     font-size: 45px;
