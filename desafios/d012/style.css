@@ -24,12 +24,13 @@
 }
 
 
-header > p#titulo {
+header > h1#titulo {
     color: white;
     max-width: 800px;
     font-size: 95px;
     font-family: Passion One, cursive, sans-serif;
     text-align: center;
+    font-variant: small-caps;
 
     position: absolute;
 
@@ -42,6 +43,7 @@ header > p#direitos {
     color: white;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
 
     position: absolute;
 
@@ -52,9 +54,14 @@ header > p#direitos {
     margin: auto;
 }
 
+
 p#direitos > a {
     color: white;
     text-decoration: none;
+}
+
+p#direitos > a:hover {
+    text-decoration: underline;
 }
 
 #meio {
@@ -148,4 +155,9 @@ div.imagem > p {
 #rodape > p > a {
     color: white;
     text-decoration: none;
+    font-weight: bolder;
+}
+
+#rodape > p > a:hover {
+    text-decoration: underline;
 }
