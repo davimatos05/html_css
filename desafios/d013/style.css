@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(92, 57, 5, 0.938);
+    background-image: url('pacote-d013/imagens/fundo-madeira.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    height: 90vh;
+}
+/* 
+#iframe {
+    position: relative;
+
+    left: 50%;
+    top: 5%;
+
+    transform: translate(-50%, -50%);
+
+
+    border: none;
+    margin: left;
+    padding: 0;
+    width: 315px;
+    height: 630px;
+} */
+
+nav {
+}
+
+.button {
+    position: left;
+}
+
+
+#home {
+    background-image: url('pacote-d013/imagens/logo-home.jpg');
+    background-size: cover;
+
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+
+    border-radius: 50%;
+}
+
+#youtube {
+    background-image: url('pacote-d013/imagens/logo-youtube.jpg');
+    background-size: cover;
+
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    
+    border-radius: 50%;
+}
+
+#github {
+    background-image: url('pacote-d013/imagens/logo-github.jpg');
+    background-size: cover;
+
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    
+    border-radius: 50%;
+
+}
+
+#instagram {
+    background-image: url('pacote-d013/imagens/logo-instagram.jpg');
+    background-size: cover;
+
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    
+    border-radius: 50%;
+}
+
+#facebook {
+    background-image: url('pacote-d013/imagens/tela-facebook.jpg');
+    background-size: cover;
+
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    
+    border-radius: 50%;
+}
+
+#twitter {
+    background-image: url('pacote-d013/imagens/logo-twitter.jpg');
+    background-size: cover;
+
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    
+    border-radius: 50%;
+}
