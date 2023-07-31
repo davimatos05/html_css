@@ -12,14 +12,14 @@ body {
 
     height: 90vh;
 }
-/* 
+
 #iframe {
     position: relative;
 
     left: 50%;
     top: 5%;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -53%);
 
 
     border: none;
@@ -27,13 +27,24 @@ body {
     padding: 0;
     width: 315px;
     height: 630px;
-} */
+
+}
 
 nav {
 }
 
+ul {
+    list-style: none;
+}
+
 .button {
-    position: left;
+    position: relative;
+
+    left: 95.3%;
+
+}
+
+.button:hover {
 }
 
 
@@ -44,7 +55,8 @@ nav {
     width: 40px;
     height: 40px;
     padding: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 24px;
+    margin-top: 10px;
 
     border-radius: 50%;
 }
@@ -56,7 +68,7 @@ nav {
     width: 40px;
     height: 40px;
     padding: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 24px;
     
     border-radius: 50%;
 }
@@ -68,7 +80,7 @@ nav {
     width: 40px;
     height: 40px;
     padding: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 24px;
     
     border-radius: 50%;
 
@@ -81,19 +93,19 @@ nav {
     width: 40px;
     height: 40px;
     padding: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 24px;
     
     border-radius: 50%;
 }
 
 #facebook {
-    background-image: url('pacote-d013/imagens/tela-facebook.jpg');
+    background-image: url('pacote-d013/imagens/logo-facebook.jpg');
     background-size: cover;
 
     width: 40px;
     height: 40px;
     padding: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 24px;
     
     border-radius: 50%;
 }
@@ -105,7 +117,7 @@ nav {
     width: 40px;
     height: 40px;
     padding: 5px;
-    margin-bottom: 15px;
-    
+    margin-bottom: 24px;
+
     border-radius: 50%;
 }
