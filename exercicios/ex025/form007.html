@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <h1>Exemplos de Formulário</h1>
+    <form action="POST">
+
+        <p>
+            <label for="iuf">Cidade:
+            
+            
+                <select name="uf" id="iuf">
+                    <option value="" selected>Escolha</option>
+                    <optgroup label="Região Sul">
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+                    <optgroup label="Região Norte">
+                        <option value="RN">Rio Grande Do Norte</option>
+                        <option value="NS">Não Sei</option>
+                    </optgroup>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão
+            <input type="text" name="prof"  id="iprof" list="lstprof">
+
+                <datalist id="lstprof">
+                    <option>sangue</option>
+                    <option>morrer</option>
+                </datalist>
+
+            </label>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </p>
+    </form>
+</body>
+</html>
